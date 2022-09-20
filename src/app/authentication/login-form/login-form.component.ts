@@ -6,13 +6,7 @@ import { Component, OnInit } from '@angular/core';
     styleUrls: ['./login-form.component.scss'],
 })
 export class LoginFormComponent implements OnInit {
-    isLoginMode = false;
-
     constructor() {}
 
     ngOnInit(): void {}
-
-    onSwitchMode(): void {
-        this.isLoginMode = !this.isLoginMode;
-    }
 }

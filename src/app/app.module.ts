@@ -9,18 +9,15 @@ import { AuthenticationPageComponent } from './pages/authentication-page/authent
 import { CreatorPageComponent } from './pages/creator-page/creator-page.component';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    LoginFormComponent,
-    RegisterFormComponent,
-    AuthenticationPageComponent,
-    CreatorPageComponent
-  ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
+    declarations: [
+        AppComponent,
+        LoginFormComponent,
+        RegisterFormComponent,
+        AuthenticationPageComponent,
+        CreatorPageComponent,
+    ],
+    imports: [BrowserModule, AppRoutingModule],
+    providers: [],
+    bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

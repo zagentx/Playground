@@ -6,8 +6,6 @@ import { Component, OnInit } from '@angular/core';
     styleUrls: ['./register-form.component.scss'],
 })
 export class RegisterFormComponent implements OnInit {
-    isLoginMode = false;
-
     constructor() {}
 
     ngOnInit(): void {}
